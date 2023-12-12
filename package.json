@@ -1,0 +1,26 @@
+{
+  "name": "htmx-ssr-demo",
+  "version": "2.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "tsx main.tsx",
+    "dev": "tsx --watch main.tsx"
+  },
+  "author": "Wesley Max",
+  "license": "MIT",
+  "dependencies": {
+    "@types/express": "^4.17.21",
+    "axios": "^1.6.2",
+    "emotion": "^10.0.9",
+    "emotion-server": "^10.0.9",
+    "express": "^4.16.4",
+    "htm": "^2.1.1",
+    "htmx.org": "^1.9.9",
+    "preact": "^8.4.2",
+    "preact-render-to-string": "^4.1.0"
+  },
+  "devDependencies": {
+    "tsx": "^4.6.2"
+  }
+}
